@@ -1,0 +1,13 @@
+  .iconHome{
+    width: 20px;
+    height: 20px;
+    background: url('../../assets/img/home/zhuye.svg') no-repeat center;
+    background-size: contain;
+  }
+  .iconHomeSelect{
+    width: 20px;
+    height: 20px;
+    background: url('../../assets/img/home/zhuyeSelect.svg') no-repeat center;
+    background-size: contain;
+  }
+  

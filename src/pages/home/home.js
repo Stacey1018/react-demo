@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { TabBar } from 'antd-mobile'
-import './home.css'
+import './home.scss'
 class Home extends Component {
   constructor(props) {
     super(props)
@@ -17,11 +17,11 @@ class Home extends Component {
     return (
 
       <>
-        <TabBar className="home">
+        <TabBar>
           <TabBar.Item
             title="首页"
             key="Home"
-            icon={<div className=" iconHome" />
+            icon={<div className="commonIcon iconHome" />
             }
             selectedIcon={<div className="commonIcon iconHomeSelect" />
             }

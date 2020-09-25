@@ -1,13 +1,20 @@
-  .iconHome{
+.am-tab-bar {
+  .commonIcon{
     width: 20px;
     height: 20px;
+  }
+  .iconHome {
     background: url('../../assets/img/home/zhuye.svg') no-repeat center;
     background-size: contain;
   }
-  .iconHomeSelect{
-    width: 20px;
-    height: 20px;
+
+  .iconHomeSelect {
     background: url('../../assets/img/home/zhuyeSelect.svg') no-repeat center;
     background-size: contain;
   }
-  
+  .iconFaxian{
+    background: url('../../assets/img/home/zhuyeSelect.svg') no-repeat center;
+    background-size: contain;
+  }
+
+}

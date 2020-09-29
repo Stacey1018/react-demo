@@ -41,24 +41,41 @@ class Home extends Component {
             }
             selectedIcon={<div className="commonIcon iconFaxianSelect" />
             }
-            // selected={this.state.selectedTab === 'blueTab'}
+            selected={this.state.selectedTab === 'redTab'}
             onPress={() => {
               this.setState({
-                selectedTab: 'blueTab',
+                selectedTab: 'redTab',
+              });
+            }}
+            data-seed="faxian"
+          >
+          </TabBar.Item>
+          <TabBar.Item
+            title="记录"
+            key="record"
+            icon={<div className="commonIcon iconJilu" />
+            }
+            selectedIcon={<div className="commonIcon iconJiluSelect" />
+            }
+            selected={this.state.selectedTab === 'whiteTab'}
+            onPress={() => {
+              this.setState({
+                selectedTab: 'whiteTab',
               });
             }}
           >
           </TabBar.Item>
           <TabBar.Item
+            title="我的"
             key="person"
             icon={<div className="commonIcon iconPerson" />
             }
             selectedIcon={<div className="commonIcon iconPersonSelect" />
             }
-            // selected={this.state.selectedTab === 'blueTab'}
+            selected={this.state.selectedTab === 'greenTab'}
             onPress={() => {
               this.setState({
-                selectedTab: 'blueTab',
+                selectedTab: 'greenTab',
               });
             }}
           >

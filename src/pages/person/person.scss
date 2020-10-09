@@ -1,0 +1,14 @@
+.person{
+  height: 100%;
+  .person-header{
+    padding: 20px 10px 0 10px;
+    text-align: left;
+    line-height: 60px;
+    img{
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      background-color: pink;
+    }
+  }
+}
